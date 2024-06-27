@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión de Números</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Conversión de Números</h1>
+
+    <a name="bd"></a>
+    <div class="converter">
+        <h2>Binario a Decimal</h2>
+        <label for="binaryInput">Binario:</label>
+        <input type="text" id="binaryInput" />
+        <button onclick="convertBinaryToDecimal()">Convertir</button>
+        <button onclick="resetBinaryInput()">Resetear</button>
+        <p id="binaryToDecimalResult"></p>
+        <div class="text">
+            <h3>Números Binarios</h3>
+            <h3>0 1</h3>
+        </div>
+    </div>
+
+    <a name="db"></a>
+    <div class="converter">
+        <h2>Decimal a Binario</h2>
+        <label for="decimalInput">Decimal:</label>
+        <input type="text" id="decimalInput" />
+        <button onclick="convertDecimalToBinary()">Convertir</button>
+        <button onclick="resetDecimalInput()">Resetear</button>
+        <p id="decimalToBinaryResult"></p>
+        <div class="text">
+            <h3>Números Decimales</h3>
+            <h3>0 1 2 3 4 5 6 7 8 9</h3>
+        </div>
+    </div>
+
+    <a name="hd"></a>
+    <div class="converter">
+        <h2>Hexadecimal a Decimal</h2>
+        <label for="hexInput">Hexadecimal:</label>
+        <input type="text" id="hexInput" />
+        <button onclick="convertHexToDecimal()">Convertir</button>
+        <button onclick="resetHexInput()">Resetear</button>
+        <p id="hexToDecimalResult"></p>
+        <div class="text">
+            <h3>Números Hexadecimal</h3>
+            <h3>0 1 2 3 4 5 6 7 8 9 A B C D E F</h3>
+        </div>
+    </div>
+
+    <a name="dh"></a>
+    <div class="converter">
+        <h2>Decimal a Hexadecimal</h2>
+        <label for="decimalHexInput">Decimal:</label>
+        <input type="text" id="decimalHexInput" />
+        <button onclick="convertDecimalToHex()">Convertir</button>
+        <button onclick="resetDecimalHexInput()">Resetear</button>
+        <p id="decimalToHexResult"></p>
+        <div class="text">
+            <h3>Números Decimales</h3>
+            <h3>0 1 2 3 4 5 6 7 8 9</h3>
+        </div>
+    </div>
+
+    <a name="bh"></a>
+    <div class="converter">
+        <h2>Binario a Hexadecimal</h2>
+        <label for="binaryToHexInput">Binario:</label>
+        <input type="text" id="binaryToHexInput" />
+        <button onclick="convertBinaryToHex()">Convertir</button>
+        <button onclick="resetBinaryHexInput()">Resetear</button>
+        <p id="binaryToHexResult"></p>
+        <div class="text">
+            <h3>Números Binarios</h3>
+            <h3>0 1</h3>
+        </div>
+    </div>
+
+    <a name="hb"></a>
+    <div class="converter">
+        <h2>Hexadecimal a Binario</h2>
+        <label for="hexToBinaryInput">Hexadecimal:</label>
+        <input type="text" id="hexToBinaryInput" />
+        <button onclick="convertHexToBinary()">Convertir</button>
+        <button onclick="resetHexBinaryInput()">Resetear</button>
+        <p id="hexToBinaryResult"></p>
+        <div class="text">
+            <h3>Números Hexadecimal</h3>
+            <h3>0 1 2 3 4 5 6 7 8 9 A B C D E F</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
